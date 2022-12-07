@@ -1,10 +1,10 @@
 {
-    "ref_mesh": "data/11-21-mallet-screenshots",
+    "ref_mesh": "data/11-28-mallet-orig-cropped",
     "random_textures": true,
     "iter": 10000,
     "save_interval": 100,
     "texture_res": [ 2048, 2048 ],
-    "train_res": [720, 960],
+    "train_res": [1440, 1920],
     "batch": 1,
     "learning_rate": [0.03, 0.01],
     "dmtet_grid" : 128,
@@ -15,5 +15,5 @@
     "ks_max" : [0, 0.25, 0.0],
     "background" : "white",
     "display" : [{"bsdf":"kd"}, {"bsdf":"ks"}, {"bsdf" : "normal"}],
-    "out_dir": "mallet-11-21"
+    "out_dir": "11-28-mallet-orig-cropped"
 }

@@ -506,7 +506,7 @@ if __name__ == "__main__":
     FLAGS.display             = None                     # Conf validation window/display. E.g. [{"relight" : <path to envlight>}]
     FLAGS.camera_space_light  = False                    # Fixed light in camera space. This is needed for setups like ethiopian head where the scanned object rotates on a stand.
     FLAGS.lock_light          = False                    # Disable light optimization in the second pass
-    FLAGS.lock_pos            = False                    # Disable vertex position optimization in the second pass
+    FLAGS.lock_pos            = True                     # Disable vertex position optimization in the second pass
     FLAGS.sdf_regularizer     = 0.2                      # Weight for sdf regularizer (see paper for details)
     FLAGS.laplace             = "relative"               # Mesh Laplacian ["absolute", "relative"]
     FLAGS.laplace_scale       = 10000.0                  # Weight for sdf regularizer. Default is relative with large weight
